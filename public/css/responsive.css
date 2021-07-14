@@ -1,0 +1,1012 @@
+@media (min-width:992px){
+    #left-icon{
+      width: 150px;
+      height: 150px;
+      display: none;
+      filter: drop-shadow(-20px 20px 5px rgb(109, 105, 105));
+    }
+
+              /*    Navigation Bar     */
+    nav{
+        padding: 1rem;;
+        background: rgba(5, 4, 4, 0.603);
+        overflow: hidden;
+        margin: 1rem 2rem 0rem 2rem;
+        border-radius: 40px;
+        top: 1rem;
+        left: 0;
+        right: 0;
+        width: 100wh;
+        position: sticky;
+        z-index: 1;
+        backdrop-filter: blur(10px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: -10px -10px 8px rgb(92, 70, 70) inset;
+    }
+    #icon{
+        width: 15%;
+    }
+    #icon img{
+        width: 3rem;
+        height: 3rem;
+    }
+    #search{
+        width: 50%;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    #search input{
+        margin: 0 10px;
+    }
+    #search-bar{
+        width: 200px;
+        padding: 5px 12px;
+        border:none;
+        border-radius: 15px;
+    }
+    #search button{
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 50%;;
+    }
+    .btn {
+        background-color: DodgerBlue; /* Blue background */
+        border: none; /*Remove borders*/
+        color: white; /* White text */
+        font-size: 13px; /* Set a font size */
+        cursor: pointer; /* Mouse pointer on hover */
+      }
+      
+    .btn:hover{
+          background-color: royalblue;
+    }
+
+    #nav-button{
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    #nav-button label{
+      margin: 0 3rem;
+    }
+    
+    
+    /* The switch - the box around the slider */
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+      }
+      
+      /*This will hide the Check Box*/
+      .switch input{
+        display: none;
+      }
+    
+      /* The slider */
+       .switch .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        opacity: 0.8;
+        transition: all 0.3s;   /*Transition of color*/
+      } 
+    
+      /*This will add one slider button to slider*/
+       .switch .slider::before{
+        content: "";
+        left: 5px;
+        top: 5px;
+        position: absolute;
+        height: 24px;
+        width: 24px;
+        background-color: black;  
+        transition: all 0.3s;   /*Transition of slider switch*/
+      } 
+    
+    
+      /*This will change the background color of slider*/
+      .switch input:checked +.slider{
+        background-color: coral;
+      }
+    
+    /*This will used to change the slider switch position*/
+      .switch input:checked +.slider::before{
+        left: 30px;
+      }
+    
+    
+      .switch .round{
+        border-radius: 30px;
+      }
+    
+    
+      .switch .round::before{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .left-align{
+        position: absolute;
+        left: 9px;
+        top: 8px;
+        font-weight: bold;
+      }
+      .right-align{
+        position: absolute;
+        right: 9px;
+        top: 8px;
+        font-weight: bold;
+      }
+      .res-nav{
+          width: 85%;
+          display: flex;
+          justify-content: space-between;
+      }
+
+
+      /*    Current Information   */
+      .hr-line{
+        display: none;
+      }
+}
+
+
+
+@media (min-width:780px) and (max-width: 992px){
+    .responsive{
+        display: none;
+    }
+    .current-info{
+        flex-direction: column;
+        height: 100vh;
+        box-sizing: border-box;
+    }
+    #left-icon{
+        width: 150px;
+        height: 150px;
+        filter: drop-shadow(-20px 20px 5px rgb(109, 105, 105));
+    }
+    .info{
+        padding: 0.5rem;
+    }
+    .right-section{
+        display: none;
+    }
+    .left-section{
+        width: 100%;
+    }
+
+
+
+              /*    Navigation Bar     */
+    nav{
+        padding: 1rem;;
+        background: rgba(5, 4, 4, 0.603);
+        overflow: hidden;
+        margin: 1rem 2rem 0rem 2rem;
+        border-radius: 40px;
+        top: 1rem;
+        left: 0;
+        right: 0;
+        width: 100wh;
+        position: sticky;
+        z-index: 1;
+        backdrop-filter: blur(10px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: -10px -10px 8px rgb(92, 70, 70) inset;
+    }
+    #icon{
+        width: 15%;
+    }
+    #icon img{
+        width: 3rem;
+        height: 3rem;
+    }
+    #search{
+        width: 50%;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    #search input{
+        margin: 0 10px;
+    }
+    #search-bar{
+        width: 200px;
+        padding: 5px 12px;
+        border:none;
+        border-radius: 15px;
+    }
+    #search button{
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 50%;;
+    }
+    .btn {
+        background-color: DodgerBlue; /* Blue background */
+        border: none; /*Remove borders*/
+        color: white; /* White text */
+        font-size: 13px; /* Set a font size */
+        cursor: pointer; /* Mouse pointer on hover */
+      }
+      
+    .btn:hover{
+          background-color: royalblue;
+    }
+    
+    #nav-button{
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    #nav-button label{
+      margin: 0 3rem;
+    }
+    
+    
+    /* The switch - the box around the slider */
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+      }
+      
+      /*This will hide the Check Box*/
+      .switch input{
+        display: none;
+      }
+    
+      /* The slider */
+       .switch .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        opacity: 0.8;
+        transition: all 0.3s;   /*Transition of color*/
+      } 
+    
+      /*This will add one slider button to slider*/
+       .switch .slider::before{
+        content: "";
+        left: 5px;
+        top: 5px;
+        position: absolute;
+        height: 24px;
+        width: 24px;
+        background-color: black;  
+        transition: all 0.3s;   /*Transition of slider switch*/
+      } 
+    
+    
+      /*This will change the background color of slider*/
+      .switch input:checked +.slider{
+        background-color: coral;
+      }
+    
+    /*This will used to change the slider switch position*/
+      .switch input:checked +.slider::before{
+        left: 30px;
+      }
+    
+    
+      .switch .round{
+        border-radius: 30px;
+      }
+    
+    
+      .switch .round::before{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    .left-align{
+      position: absolute;
+      left: 9px;
+      top: 8px;
+      font-weight: bold;
+    }
+    .right-align{
+      position: absolute;
+      right: 9px;
+      top: 8px;
+      font-weight: bold;
+    }
+
+    .res-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+     /*    Current Information   */
+     .hr-line{
+      display: none;
+    }
+}
+
+
+
+
+@media (min-width:600px) and (max-width: 780px){
+    .responsive{
+        display: none;
+    }
+    .current-info{
+        flex-direction: column;
+        height: 100vh;
+        box-sizing: border-box;
+    }
+    #left-icon{
+        width: 150px;
+        height: 150px;
+        filter: drop-shadow(-20px 20px 5px rgb(109, 105, 105));
+    }
+    .info{
+        padding: 0.5rem;
+    }
+    .right-section{
+        display: none;
+    }
+    .left-section{
+        width: 100%;
+    }
+
+
+                    /*    Responsive NavBar Design    */
+
+    
+    nav{
+      padding: 1rem;
+    }
+    #icon{
+        width: 15%;
+    }
+    #icon img{
+        width: 3rem;
+        height: 3rem;
+    }
+    #search{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    #search input{
+        margin: 0 10px;
+        border: 2px solid black;
+        box-shadow: -5px -5px 5px rgb(173, 163, 163) inset; 
+    }
+    #search-bar{
+        width: 200px;
+        padding: 5px 12px;
+        border:none;
+        border-radius: 15px;
+    }
+    #search button{
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 50%;;
+    }
+    .btn {
+        background-color: DodgerBlue; /* Blue background */
+        border: none; /*Remove borders*/
+        color: white; /* White text */
+        font-size: 13px; /* Set a font size */
+        cursor: pointer; /* Mouse pointer on hover */
+      }
+      
+    .btn:hover{
+          background-color: royalblue;
+    }
+    #nav-button{
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 1rem;
+    }
+    #nav-button label{
+      margin: 0 3rem;
+    }
+  
+  
+    /* The switch - the box around the slider */
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    }
+    
+    /*This will hide the Check Box*/
+    .switch input{
+      display: none;
+    }
+  
+    /* The slider */
+     .switch .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: grey;
+      opacity: 0.8;
+      transition: all 0.3s;   /*Transition of color*/
+    } 
+  
+    /*This will add one slider button to slider*/
+     .switch .slider::before{
+      content: "";
+      left: 5px;
+      top: 5px;
+      position: absolute;
+      height: 24px;
+      width: 24px;
+      background-color: black;  
+      transition: all 0.3s;   /*Transition of slider switch*/
+    } 
+  
+  
+    /*This will change the background color of slider*/
+    .switch input:checked +.slider{
+      background-color: coral;
+    }
+  
+    /*This will used to change the slider switch position*/
+    .switch input:checked +.slider::before{
+      left: 30px;
+    }
+  
+  
+    .switch .round{
+      border-radius: 30px;
+    }
+  
+  
+    .switch .round::before{
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .left-align{
+      position: absolute;
+      left: 9px;
+      top: 8px;
+      font-weight: bold;
+    }
+    .right-align{
+      position: absolute;
+      right: 9px;
+      top: 8px;
+      font-weight: bold;
+    }
+    
+    .res-nav{
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100vw;
+        position: fixed;
+        top: 4.2rem;
+        z-index: 1;
+    }
+
+
+
+              /*        Current Section       */
+    .current-info{
+      background-color: black;
+      margin: 0 !important;
+      border-radius: 0 !important;
+      box-shadow: none;
+      color: white;
+    }
+    .hr-line{
+      color: white !important;
+      width: 80%;
+    }
+
+
+
+                       /*    Hourly Section   */
+
+     .hourly-info{
+        background-color: black;
+        border-radius: 0 !important;
+        margin: 0rem 0rem 0rem 0rem !important;
+        box-shadow: none;
+    }
+
+    .one-hour{
+      background-color: rgb(85, 99, 96) !important;
+      margin: 0 !important;
+      border-radius: 0 !important;
+      padding: 8px 5px !important;
+    }
+
+
+
+
+                /*    Daily Section   */
+
+    .box{
+      margin: 0 !important;
+      border-radius: 0 !important;
+      box-shadow: none;
+      background-color: grey;   
+      color: white;    
+  }
+  .box-title{
+    color: black;
+  }
+
+
+}
+
+
+
+
+@media (min-width:470px) and (max-width:600px){
+    .responsive{
+        display: none;
+    }
+    .current-info{
+        flex-direction: column;
+        height: 100vh;
+        box-sizing: border-box;
+    }
+    #left-icon{
+        width: 150px;
+        height: 150px;
+        filter: drop-shadow(-20px 20px 5px rgb(109, 105, 105));
+    }
+    .info{
+        padding: 0.5rem;
+    }
+    .right-section{
+        display: none;
+    }
+    .left-section{
+        width: 100%;
+    }
+
+
+
+
+                    /*    Responsive NavBar Design    */
+
+    nav{
+        padding: 1rem; 
+    }
+    #icon{
+        width: 15%;
+    }
+    #icon img{
+        width: 3rem;
+        height: 3rem;
+    }
+    #search{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    #search input{
+        margin: 0 10px;
+        border: 2px solid black;
+        box-shadow: -5px -5px 5px rgb(173, 163, 163) inset; 
+    }
+    #search-bar{
+        width: 200px;
+        padding: 5px 12px;
+        border:none;
+        border-radius: 15px;
+    }
+    #search button{
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 50%;;
+    }
+    .btn {
+        background-color: DodgerBlue; /* Blue background */
+        border: none; /*Remove borders*/
+        color: white; /* White text */
+        font-size: 13px; /* Set a font size */
+        cursor: pointer; /* Mouse pointer on hover */
+      }
+      
+    .btn:hover{
+          background-color: royalblue;
+    }
+     
+    #nav-button{
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 1rem;
+    }
+    #nav-button label{
+      margin: 0 3rem;
+    }
+    
+    
+    /* The switch - the box around the slider */
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+      }
+      
+      /*This will hide the Check Box*/
+      .switch input{
+        display: none;
+      }
+    
+      /* The slider */
+       .switch .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: grey;
+        opacity: 0.8;
+        transition: all 0.3s;   /*Transition of color*/
+      } 
+    
+      /*This will add one slider button to slider*/
+       .switch .slider::before{
+        content: "";
+        left: 5px;
+        top: 5px;
+        position: absolute;
+        height: 24px;
+        width: 24px;
+        background-color: black;  
+        transition: all 0.3s;   /*Transition of slider switch*/
+      } 
+    
+    
+      /*This will change the background color of slider*/
+      .switch input:checked +.slider{
+        background-color: coral;
+      }
+    
+    /*This will used to change the slider switch position*/
+      .switch input:checked +.slider::before{
+        left: 30px;
+      }
+    
+    
+      .switch .round{
+        border-radius: 30px;
+      }
+    
+    
+      .switch .round::before{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    .left-align{
+      position: absolute;
+      left: 9px;
+      top: 8px;
+      font-weight: bold;
+    }
+    .right-align{
+      position: absolute;
+      right: 9px;
+      top: 8px;
+      font-weight: bold;
+    }
+    
+
+    .res-nav{
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100vw;
+        position: fixed;
+        top: 4.2rem;
+        z-index: 1;
+    }
+
+
+    
+              /*        Current Section       */
+    .current-info{
+      background-color: black;
+      margin: 0 !important;
+      border-radius: 0 !important;
+      box-shadow: none;
+      color: white;
+    }
+    .hr-line{
+      color: white !important;
+      width: 80%;
+    }
+
+
+
+                       /*    Hourly Section   */
+
+     .hourly-info{
+        background-color: black;
+        border-radius: 0 !important;
+        margin: 0rem 0rem 0rem 0rem !important;
+        box-shadow: none;
+    }
+
+    .one-hour{
+      background-color: rgb(85, 99, 96) !important;
+      margin: 0 !important;
+      border-radius: 0 !important;
+      padding: 8px 5px !important;
+    }
+
+
+
+
+                /*    Daily Section   */
+
+    .box{
+      margin: 0 !important;
+      border-radius: 0 !important;
+      box-shadow: none;
+      background-color: grey;   
+      color: white;    
+    }
+    .box-title{
+      color: black;
+    }
+}
+
+
+
+@media (max-width:470px) {
+    .responsive{
+        display: none;
+    }
+    .current-info{
+        flex-direction: column;
+        height: 100vh;
+        box-sizing: border-box;
+    }
+    #left-icon{
+        width: 150px;
+        height: 150px;
+        filter: drop-shadow(-20px 20px 5px rgb(109, 105, 105));
+    }
+    .info{
+        padding: 0.5rem;
+    }
+    .right-section{
+        display: none;
+    }
+    .left-section{
+        width: 100%;
+    }
+
+
+                    /*    Responsive NavBar Design    */
+
+    nav{
+        padding: 1rem;
+    }
+    #icon{
+        width: 15%;
+    }
+    #icon img{
+        width: 3rem;
+        height: 3rem;
+    }
+    #search{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+       
+    }
+    #search input{
+        margin-right:10px;
+        border: 2px solid black;
+        box-shadow: -5px -5px 5px rgb(173, 163, 163) inset; 
+    }
+    #search-bar{
+        width: 130px;
+        padding:5px;
+        border:none;
+        border-radius: 15px;
+    }
+    #search button{
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 50%;
+    }
+    .btn {
+        background-color: DodgerBlue; /* Blue background */
+        border: none; /*Remove borders*/
+        color: white; /* White text */
+        font-size: 13px; /* Set a font size */
+        cursor: pointer; /* Mouse pointer on hover */
+      }
+      
+    .btn:hover{
+          background-color: royalblue;
+    }
+    #nav-button{
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 1rem;
+    }
+    #nav-button label{
+      margin: 0 1rem;
+    }
+    
+    
+    /* The switch - the box around the slider */
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+      }
+      
+      /*This will hide the Check Box*/
+      .switch input{
+        display: none;
+      }
+    
+      /* The slider */
+       .switch .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: grey;
+        opacity: 0.8;
+        transition: all 0.3s;   /*Transition of color*/
+      } 
+    
+      /*This will add one slider button to slider*/
+       .switch .slider::before{
+        content: "";
+        left: 5px;
+        top: 5px;
+        position: absolute;
+        height: 24px;
+        width: 24px;
+        background-color: black;  
+        transition: all 0.3s;   /*Transition of slider switch*/
+      } 
+    
+    
+      /*This will change the background color of slider*/
+      .switch input:checked +.slider{
+        background-color: coral;
+      }
+    
+    /*This will used to change the slider switch position*/
+      .switch input:checked +.slider::before{
+        left: 30px;
+      }
+    
+    
+      .switch .round{
+        border-radius: 30px;
+      }
+    
+    
+      .switch .round::before{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .left-align{
+        position: absolute;
+        left: 9px;
+        top: 8px;
+        font-weight: bold;
+      }
+      .right-align{
+        position: absolute;
+        right: 9px;
+        top: 8px;
+        font-weight: bold;
+      }
+      
+
+      .res-nav{
+          width: 100%;
+          display: flex;
+          padding: 1rem 0;
+          flex-direction: row;
+          justify-content: space-between;
+          position: fixed;
+          top: 4.2rem;
+          z-index: 1;
+      }
+
+
+
+    
+              /*        Current Section       */
+      .current-info{
+        background-color: black;
+        margin: 0 !important;
+        border-radius: 0 !important;
+        box-shadow: none;
+        color: white;
+      }
+      .hr-line{
+        color: white !important;
+        width: 80%;
+      }
+
+
+
+                       /*    Hourly Section   */
+
+     .hourly-info{
+        background-color: black;
+        border-radius: 0 !important;
+        margin: 0rem 0rem 0rem 0rem !important;
+        box-shadow: none;
+    }
+
+    .one-hour{
+      background-color: rgb(85, 99, 96) !important;
+      margin: 0 !important;
+      border-radius: 0 !important;
+      padding: 8px 5px !important;
+    }
+
+
+
+
+                /*    Daily Section   */
+    .box{
+      margin: 0 !important;
+      border-radius: 0 !important;
+      box-shadow: none;
+      background-color: grey;   
+      color: white;    
+    }
+    .box-title{
+      display: none;
+    }
+
+    .title-hr{
+      display: none;
+    }
+}
