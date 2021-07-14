@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RohitPatil-10/Weather-Forecast.git"
+    "url": "git+ssh://git@github.com/RohitPatil-10/Weather-Forecast.git"
   },
   "author": "Rohit Patil",
   "license": "ISC",
