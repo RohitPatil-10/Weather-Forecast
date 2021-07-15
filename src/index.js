@@ -1,4 +1,4 @@
-const API_KEY=process.env.API_KEY;
+const api_key=API_KEY;
 var count = 0;
 function myfunction() {
      let a = document.getElementById("check-signal").checked;
@@ -26,10 +26,10 @@ function defaultlocation() {
      let lat = -45.65;
      let lon = 15.23;
      if (count == 0) {
-          url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=metric&exclude=alerts&appid=${API_KEY}`;
+          url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=metric&exclude=alerts&appid=${api_key}`;
      }
      if (count == 1) {
-          url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=alerts&appid=${API_KEY}`;
+          url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=alerts&appid=${api_key}`;
      }
      document.getElementById("city-name").innerHTML = "London";
      fetchWeather(url);
