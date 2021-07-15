@@ -1,4 +1,4 @@
-const API_KEY=config.API_KEY;
+// const API_KEY=config.API_KEY;
 var count = 0;
 function myfunction() {
      let a = document.getElementById("check-signal").checked;
