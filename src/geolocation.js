@@ -6,11 +6,11 @@ function getLocation() {
         let lon = position.coords.longitude;
 
         if (count == 0) {
-            url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=metric&exclude=alerts&appid=${api_key}`;
+            url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=metric&exclude=alerts&appid=${API_KEY}`;
             fetchWeather(url);
         }
         if (count == 1) {
-            url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=alerts&appid=${api_key}`;
+            url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=alerts&appid=${API_KEY}`;
             fetchWeather(url);
         }
 
