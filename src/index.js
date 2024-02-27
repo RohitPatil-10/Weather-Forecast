@@ -181,7 +181,7 @@ function manipulation(data) {
      });
      let j = 0;
      imgid.forEach(function (id) {
-          document.getElementById(id).src = "http://openweathermap.org/img/wn/" + data.hourly[j].weather[0].icon + "@2x.png";
+          document.getElementById(id).src = "../public/icon/" + data.hourly[j].weather[0].icon + ".png";
           j++
      });
      let k = 0;
@@ -247,7 +247,7 @@ function manipulation(data) {
      if (count == 1) {
           document.getElementById("box-data-0-4").innerHTML = data.daily[1].temp.day + " °F";
      }
-     document.getElementById("box-data-0-5").src = "http://openweathermap.org/img/wn/" + data.daily[1].weather[0].icon + "@2x.png";
+     document.getElementById("box-data-0-5").src = "../public/icon/" + data.daily[1].weather[0].icon + ".png";
 
 
      document.getElementById("box-data-1-1").innerHTML = unixTime(data.daily[2].dt, 1);
@@ -260,7 +260,7 @@ function manipulation(data) {
           document.getElementById("box-data-1-4").innerHTML = data.daily[2].temp.day + " °F";
      }
 
-     document.getElementById("box-data-1-5").src = "http://openweathermap.org/img/wn/" + data.daily[2].weather[0].icon + "@2x.png";
+     document.getElementById("box-data-1-5").src = "../public/icon/" + data.daily[2].weather[0].icon + ".png";
 
 
      document.getElementById("box-data-2-1").innerHTML = unixTime(data.daily[3].dt, 1);
@@ -272,7 +272,7 @@ function manipulation(data) {
      if (count == 1) {
           document.getElementById("box-data-2-4").innerHTML = data.daily[3].temp.day + " °F";
      }
-     document.getElementById("box-data-2-5").src = "http://openweathermap.org/img/wn/" + data.daily[3].weather[0].icon + "@2x.png";
+     document.getElementById("box-data-2-5").src = "../public/icon/" + data.daily[3].weather[0].icon + ".png";
 
 
      document.getElementById("box-data-3-1").innerHTML = unixTime(data.daily[4].dt, 1);
@@ -284,7 +284,7 @@ function manipulation(data) {
      if (count == 1) {
           document.getElementById("box-data-3-4").innerHTML = data.daily[4].temp.day + " °F";
      }
-     document.getElementById("box-data-3-5").src = "http://openweathermap.org/img/wn/" + data.daily[4].weather[0].icon + "@2x.png";
+     document.getElementById("box-data-3-5").src = "../public/icon/" + data.daily[4].weather[0].icon + ".png";
 
 
      document.getElementById("box-data-4-1").innerHTML = unixTime(data.daily[5].dt, 1);
@@ -296,7 +296,7 @@ function manipulation(data) {
      if (count == 1) {
           document.getElementById("box-data-4-4").innerHTML = data.daily[5].temp.day + " °F";
      }
-     document.getElementById("box-data-4-5").src = "http://openweathermap.org/img/wn/" + data.daily[5].weather[0].icon + "@2x.png";
+     document.getElementById("box-data-4-5").src = "../public/icon/" + data.daily[5].weather[0].icon + ".png";
 
 
      document.getElementById("box-data-5-1").innerHTML = unixTime(data.daily[6].dt, 1);
@@ -308,7 +308,7 @@ function manipulation(data) {
      if (count == 1) {
           document.getElementById("box-data-5-4").innerHTML = data.daily[6].temp.day + " °F";
      }
-     document.getElementById("box-data-5-5").src = "http://openweathermap.org/img/wn/" + data.daily[6].weather[0].icon + "@2x.png";
+     document.getElementById("box-data-5-5").src = "../public/icon/" + data.daily[6].weather[0].icon + ".png";
 
 
      document.getElementById("box-data-6-1").innerHTML = unixTime(data.daily[7].dt, 1);
@@ -320,7 +320,7 @@ function manipulation(data) {
      if (count == 1) {
           document.getElementById("box-data-6-4").innerHTML = data.daily[7].temp.day + " °F";
      }
-     document.getElementById("box-data-6-5").src = "http://openweathermap.org/img/wn/" + data.daily[7].weather[0].icon + "@2x.png";
+     document.getElementById("box-data-6-5").src = "../public/icon/" + data.daily[7].weather[0].icon + ".png";
 
 }
 
